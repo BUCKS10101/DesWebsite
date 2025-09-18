@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CampusLink — VIT Campus Delivery Network</title>
+  <style>
+    :root{--accent:#0f62fe;--muted:#6b7280;--card:#ffffff;--bg:#f6f8fb}
+    *{box-sizing:border-box}
+    body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+    .container{max-width:980px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{display:inline-grid;place-items:center;width:64px;height:64px;background:linear-gradient(135deg,var(--accent),#7c4dff);color:#fff;border-radius:12px;font-weight:700}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin-top:8px}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:22px}
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+
+    .list ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+    .list li{padding:10px;border-radius:10px;background:#fbfdff;border:1px solid rgba(15,98,254,0.06)}
+
+    footer{margin-top:26px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.container{margin:18px;padding:16px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">CL</div>
+      <div>
+        <h1>CampusLink: Your VIT Campus Delivery Network</h1>
+        <p class="lead">Post a quick request — a fellow student walking by will pick it up and deliver it to you. Small tip. Big convenience.</p>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2 style="margin-top:0">Features</h2>
+        <div class="list">
+          <ul>
+            <li><strong>Smart Pricing System</strong> — Pricing depends on distance to be covered; integrated with maps for accurate charges.</li>
+            <li><strong>Rating &amp; Safety System</strong> — Users can rate delivery peers; repeated valid complaints can block a number.</li>
+            <li><strong>Delivery Contact</strong> — The phone number of the person bringing your food is displayed for coordination.</li>
+            <li><strong>In-App Chat</strong> — Communicate smoothly with the delivery peer without leaving the app.</li>
+            <li><strong>Priority Orders</strong> — Frequent customers and highly rated delivery peers receive priority matching.</li>
+            <li><strong>Outlet Integration</strong> — Seamless integration with popular campus outlets like One Food and DC Cafe.</li>
+            <li><strong>Efficient Matching</strong> — Fast and reliable matching and delivery process to minimize wait time.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 style="margin-top:0">Advantages</h2>
+        <div class="list">
+          <ul>
+            <li>Saves time and effort for busy students</li>
+            <li>Provides easy pocket money opportunities</li>
+            <li>Fosters community support and collaboration</li>
+            <li>Reduces overcrowding at outlets during peak hours</li>
+            <li>Encourages efficient use of student movement across campus</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 style="margin-top:0">Future Prospects</h2>
+        <div class="list">
+          <ul>
+            <li>Expansion beyond food to stationery, essentials, and courier services</li>
+            <li>Partnerships with campus outlets for exclusive discounts</li>
+            <li>AI-based matching for faster request fulfillment</li>
+            <li>Loyalty rewards program for frequent users</li>
+            <li>Scaling to other universities with similar campus structures</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 style="margin-top:0">Revenue Model</h2>
+        <div class="list">
+          <ul>
+            <li>Small platform fee (₹2–3) on each transaction</li>
+            <li>Collaborations with One Food, DC Cafe, and campus stores</li>
+            <li>Premium subscription for frequent requesters</li>
+            <li>Sponsored promotions with popular outlets</li>
+            <li>High earning potential for student deliverers (₹50–100/day)</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Built for VIT students • Features • Advantages • Future Prospects • Revenue Model
+    </footer>
+  </div>
+</body>
+</html>
